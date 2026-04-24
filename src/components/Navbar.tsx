@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
-import { LogOut, User as UserIcon, Moon, Sun,  GraduationCap } from 'lucide-react';
+import { LogOut, User as UserIcon, Moon, Sun, GraduationCap } from 'lucide-react';
 import './Navbar.css';
 
 export const Navbar: React.FC = () => {
